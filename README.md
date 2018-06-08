@@ -6,4 +6,4 @@ jiaiyfus
 
 http://younghz.github.io/Markdown/
 
-！[Aaron Swartz](http://i0.hdslb.com/bfs/archive/76e6607090159cfb86fa58fb6dda5e937f7e25d1.jpg)
+![test](https://github.com/juemu65/tt/blob/master/img/xylogo.png)
