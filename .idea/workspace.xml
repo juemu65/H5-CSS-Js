@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cf1d0f11-7677-48f6-97fb-852c26031f33" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/day1/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +15,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="task00.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="task00.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day1/task00.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day1/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret lean-forward="true" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="752">
+                <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -52,6 +77,7 @@
         <option value="$PROJECT_DIR$/css/00.css" />
         <option value="$PROJECT_DIR$/js/00.js" />
         <option value="$PROJECT_DIR$/task00.html" />
+        <option value="$PROJECT_DIR$/day1/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -76,6 +102,7 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <showMembers ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -184,7 +211,7 @@
       <workItem from="1528352101033" duration="2963000" />
       <workItem from="1528355134267" duration="288000" />
       <workItem from="1528355991976" duration="2781000" />
-      <workItem from="1528420933071" duration="3384000" />
+      <workItem from="1528420933071" duration="3637000" />
     </task>
     <task id="LOCAL-00001" summary="task0">
       <created>1528354173124</created>
@@ -270,14 +297,22 @@
       <option name="project" value="LOCAL" />
       <updated>1528422333418</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="day1">
+      <created>1528440060437</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1528440060437</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9416000" />
+    <option name="totallyTimeSpent" value="9669000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="296" y="72" width="1120" height="712" extended-state="0" />
+    <frame x="253" y="38" width="1120" height="712" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -323,7 +358,8 @@
     <MESSAGE value="task01" />
     <MESSAGE value="md" />
     <MESSAGE value="image" />
-    <option name="LAST_COMMIT_MESSAGE" value="image" />
+    <MESSAGE value="day1" />
+    <option name="LAST_COMMIT_MESSAGE" value="day1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/task00.html">
@@ -403,20 +439,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/day1/task00.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day1/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="224">
-            <caret line="14" selection-start-line="14" selection-end-line="15" selection-end-column="10" />
+          <first_editor>
+            <caret lean-forward="true" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day1/task00.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="752">
+            <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

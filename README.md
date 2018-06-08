@@ -6,11 +6,7 @@ jiaiyfus
 
 http://younghz.github.io/Markdown/
 
-![test](https://github.com/juemu65/tt/blob/master/img/xylogo.png)
 
-
-
-以下来源：[zhubin0530](https://github.com/zhubin0530/baidu-ife/tree/master/%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%AD%A6%E9%99%A2/day2)
 # HTML学习笔记
 ## 任务
 创建一个在线简历  
@@ -49,18 +45,7 @@ http://younghz.github.io/Markdown/
 - [W3School的HTML教程](http://www.w3school.com.cn/html/index.asp)
 - [W3School的HTML5教程](http://www.w3school.com.cn/html5/index.asp)
 
-## 课后问题
-- HTML是什么，HTML5是什么？
-- HTML元素标签，属性都是什么概念？
-- 文档类型是什么概念，起什么作用？
-- meta标签懂用来做什么的？
-- Web语义化都用来做都很忙的？
-- 链接时什么概念，对应什么标签？
-- 常用标签都有哪些，都适合用在什么场景？
-- 表单标签都有哪些，对应着什么功能，都有哪些属性？
-- ol,ul,li,dl,dd,dt等这些标签都适合用在什么地方，举个例子
 
-## 总结
 
 
 
