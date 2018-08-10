@@ -9,7 +9,7 @@ http://younghz.github.io/Markdown/
 
 # HTML学习笔记
 ## 任务
-创建一个在线简历  
+创建一个在线简历  ？
 [点击预览](https://zhubin0530.github.io/baidu-ife/%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%AD%A6%E9%99%A2/day2/)
 
 ## 学习资料 (MDN)
