@@ -3,6 +3,17 @@ h1{
     text-align: center;
 }
 
+h2{
+
+
+}
+
+.Advice-title{
+    font-size: 60px;
+    text-align: center;
+    color: aquamarine;
+}
+
 p,li{
     font-size: 16px;
     line-height: 2;
