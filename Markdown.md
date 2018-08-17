@@ -9,13 +9,6 @@
 >   [代码块和语法高亮](#代码块和语法高亮)  
 >   [表格](#表格)  
 >   [任务列表](#任务列表)  
-> 
-> 
-> 
-> 
-> 
-> 
-> 
 >   [参考学习](#参考学习)
 
 
@@ -300,7 +293,8 @@ h1{
 
 ##  任务列表
 ```
-
+基本格式:- [ ] 文字,子项需要在-前加两个空格
+[X]记号为完成
 ```
 
 效果：
@@ -317,51 +311,4 @@ h1{
  1.[Learning-Markdown](http://xianbai.me/learn-md/)
  2.[Markdown教程](https://commonmark.org/help/tutorial/index.html)
  3.[youngnz-Markdown](https://github.com/younghz/Markdown)
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
