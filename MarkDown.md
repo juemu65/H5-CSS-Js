@@ -216,7 +216,8 @@
 
 ```
 <http://www.google.com/>
-<123@email.com>
+
+<Juemu65@gmail.com>
 ```
 
 效果：
@@ -226,6 +227,30 @@
 <Juemu65@gmail.com>
 
 ##  图片
+
+```
+![GitHub](https://github.com/juemu65/H5-CSS-Js/blob/master/My/img/T.jpeg "GitHub,Social Coding")
+```
+
+效果：
+
+![GitHub](https://github.com/juemu65/H5-CSS-Js/blob/master/My/img/T.jpeg "GitHub,Social Coding")
+
+
+```
+
+```
+
+效果：
+
+
+```
+
+```
+
+效果：
+
+
 ##  强调
 ##  字符转义
 ##  删除线
