@@ -180,9 +180,11 @@
 
 ③ 包含 'title' 的链接:
 
+[Google](http://www.google.com/ 'Google')
+
 [Google](http://www.google.com/ "Google")
 
-title 使用 ' 或 " 都是可以的。
+
 ```
 
 效果：
@@ -198,10 +200,15 @@ title 使用 ' 或 " 都是可以的。
 - 参考式
 
 ```
-
+[Google][link]
+[link]: http://www.google.com/ "Google"
 ```
 
 效果：
+
+ [Google][]
+ [Google]: http://www.google.com/ "Google"
+
 
 - 自动链接
 
