@@ -56,7 +56,7 @@
    H2
    ----   
    
-+ atx 形式
++ **atx 形式**
 
     推荐：只在左侧添加#，共6级标题
     ```
@@ -197,27 +197,33 @@
 
 [Google](http://www.google.com/ "Google")
 
-- 参考式
+- **参考式**
 
 ```
 [Google][link]
+
 [link]: http://www.google.com/ "Google"
 ```
 
 效果：
 
- [Google][]
- [Google]: http://www.google.com/ "Google"
+ [Google][1]
+ 
+ [1]: http://www.google.com/ "Google"
 
 
 - 自动链接
 
 ```
-
+<http://www.google.com/>
+<123@email.com>
 ```
 
 效果：
 
+<http://www.google.com/>
+
+<Juemu65@gmail.com>
 
 ##  图片
 ##  强调
