@@ -229,26 +229,28 @@
 ##  图片
 
 ```
-![GitHub](https://github.com/juemu65/H5-CSS-Js/blob/master/My/img/T.jpeg "GitHub,Social Coding")
-```
-
-效果：
-
+行内式
 ![GitHub](https://github.com/juemu65/H5-CSS-Js/blob/master/My/img/T.jpeg "GitHub,Social Coding")
 
+参考式
+![GitHub][github]
 
+[github]: https://github.com/juemu65/H5-CSS-Js/blob/master/My/img/T.jpeg "GitHub,Social Coding"
 ```
 
+效果：
+
+![GitHub](https://github.com/juemu65/H5-CSS-Js/blob/master/My/img/T.jpeg "GitHub,Social Coding")
+
+
+```
+设定图片大小，需要用<img>标签
+<img src="https://github.com/juemu65/H5-CSS-Js/blob/master/My/img/T.jpeg " alt="GitHub" title="GitHub,Social Coding" width="150" height="150" />
 ```
 
 效果：
 
-
-```
-
-```
-
-效果：
+<img src="https://github.com/juemu65/H5-CSS-Js/blob/master/My/img/T.jpeg " alt="GitHub" title="GitHub,Social Coding" width="150" height="150" />
 
 
 ##  强调
