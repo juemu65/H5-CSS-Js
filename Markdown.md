@@ -278,15 +278,51 @@ h1{
 }
 ```
 ##  表格
+```
+使用 | 来分隔不同的单元格，使用 - 来分隔表头和其他行
+:--- 代表左对齐
+:--: 代表居中对齐
+---: 代表右对齐
+
+| left | center | right |
+| :--- | :----: | ----: |
+| aaaa | bbbbbb | ccccc |
+| a    | b      | c     |
+```
+
+效果：
+
+| left | center | right |
+| :--- | :----: | ----: |
+| aaaa | bbbbbb | ccccc |
+| a    | b      | c     |
+
+
 ##  任务列表
-##  参考学习
-
-
 ```
 
 ```
 
 效果：
+- [X] Markdown
+  - [X] 介绍
+- [ ] 语法
+  - [X] 段落与换行
+  - [X] 标题
+  - [ ] 引用
+  
+  
+##  参考学习
+
+ 1.[Learning-Markdown](http://xianbai.me/learn-md/)
+ 2.[Markdown教程](https://commonmark.org/help/tutorial/index.html)
+ 3.[youngnz-Markdown](https://github.com/younghz/Markdown)
+
+
+
+
+
+
  
 
 
