@@ -167,13 +167,42 @@
 
 ##  超链接
 
-```
+- 行内式
 
+```
+① 普通链接：
+
+[Google](http://www.google.com/)
+
+② 指向本地文件的链接：
+
+[icon.png](./images/icon.png)
+
+③ 包含 'title' 的链接:
+
+[Google](http://www.google.com/ "Google")
+
+title 使用 ' 或 " 都是可以的。
 ```
 
 效果：
  
 
+- 参考式
+
+```
+
+```
+
+效果：
+
+- 自动链接
+
+```
+
+```
+
+效果：
 
 
 ##  图片
