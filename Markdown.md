@@ -250,7 +250,7 @@
 
 效果：
 
-<img src="https://github.com/juemu65/H5-CSS-Js/blob/master/My/img/T.jpeg " alt="GitHub" title="GitHub,Social Coding" width="150" height="150" />
+<img src="https://github.com/juemu65/H5-CSS-Js/blob/master/My/img/T.jpeg " alt="GitHub" title="GitHub,Social Coding" width="20%" height="50%" />
 
 
 ##  强调
