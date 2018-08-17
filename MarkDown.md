@@ -176,7 +176,7 @@
 
 ② 指向本地文件的链接：
 
-[icon.png](./images/icon.png)
+[T.jpeg](./My/img/T.jpeg)
 
 ③ 包含 'title' 的链接:
 
@@ -186,7 +186,14 @@ title 使用 ' 或 " 都是可以的。
 ```
 
 效果：
- 
+
+[Google](http://www.google.com/)
+
+[T.jpeg](./My/img/T.jpeg)
+
+[Google](http://www.google.com/ 'Google')
+
+[Google](http://www.google.com/ "Google")
 
 - 参考式
 
