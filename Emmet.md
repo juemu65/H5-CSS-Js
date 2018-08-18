@@ -127,12 +127,11 @@ a{Click me}
 ##  隐式标签名称
 
 ```html
-隐式标签                     等价效果
-.wrap>.content	            div.wrap>div.content
+隐式标签                         等价效果
+.wrap>.content	                div.wrap>div.content
 em>.info	                em>span.info
 ul>.item*3	                ul>li.item*3
 table>#row$*4>[colspan=2]	table>tr#row$*4>td[colspan=2]
-
 ```
 
 
