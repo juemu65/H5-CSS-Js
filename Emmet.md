@@ -1,5 +1,6 @@
 ##  导航
 >   [缩写语法](#缩写语法)  
+>   [隐式标签名称](#隐式标签名称)  
 >   [参考学习](#参考学习)  
 
 ##  缩写语法
@@ -123,6 +124,18 @@ a{Click me}
 更多拓展源码：
 <https://github.com/emmetio/emmet/blob/master/lib/snippets.json>
 
+##  隐式标签名称
+
+```html
+隐式标签                     等价效果
+.wrap>.content	            div.wrap>div.content
+em>.info	                em>span.info
+ul>.item*3	                ul>li.item*3
+table>#row$*4>[colspan=2]	table>tr#row$*4>td[colspan=2]
+
+```
+
+
 ##  参考学习
 
  1.[Emmet：HTML/CSS代码快速编写神器](http://www.iteye.com/news/27580)
@@ -132,5 +145,6 @@ a{Click me}
 
 `自定义属性`
 ```html
+
 
 ```
