@@ -141,9 +141,3 @@ table>#row$*4>[colspan=2]	table>tr#row$*4>td[colspan=2]
  
  2.[Emmet Documentation](https://docs.emmet.io/)
  
-
-`自定义属性`
-```html
-
-
-```
