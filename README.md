@@ -1,27 +1,27 @@
 # Web开发学习笔记
 
 ## 学习资料 (MDN)
-- [X] **Web入门**
+- [X] ###Web入门
   - [X] [HTML基础](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web/HTML_basics)
   - [X] [CSS基础](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web/CSS_basics)
-  - [ ] [Javascript基础](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+  - [X] [Javascript基础](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
   - [X] [Web是如何运作的](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
-- [ ] **HTML**
+- [ ] ###HTML
   - [X] HTML介绍
     - [ ] [HTML入门](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
-    - [ ] [html语义](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals)
+    - [ ] [head](https://developer.mozilla.org/zh-CN/docs/learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
     - [ ] [超链接](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks)
     - [ ] [高级排版](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting)
-  - [ ] [多媒体与嵌入](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Multimedia_and_embedding)
+  - [ ] 多媒体与嵌入
     - [ ] [图片](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML)
     - [ ] [视频和音频](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content)
     - [ ] [其他嵌入方式](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Multimedia_and_embedding/%E5%85%B6%E4%BB%96%E5%B5%8C%E5%85%A5%E6%8A%80%E6%9C%AF)
     - [ ] [矢量图](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web)
     - [ ] [响应式图片](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
-  - [ ] [表格](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Tables)
+  - [ ] 表格
     - [ ] [基础](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Tables/Basics)
     - [ ] [高级](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Tables/Advanced)
-  - [ ] [表单](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Forms)
+  - [ ] 表单
     - [ ] [html表单是什么](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Forms/Your_first_HTML_form)
     - [ ] [构建表单](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Forms/How_to_structure_an_HTML_form)
     - [ ] [表单部件](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Forms/The_native_form_widgets)
