@@ -1,0 +1,92 @@
+/* 所有具有"data-vegetable"属性的元素将被应用绿色的文本颜色 */
+[data-vegetable] {
+    color: green
+}
+
+/* 所有具有"data-vegetable"属性且属性值刚好为"liquid"的元素将被应用金色的背景颜色 */
+[data-vegetable="liquid"] {
+    background-color: goldenrod;
+    width: 200px;
+}
+
+/* 所有具有"data-vegetable"属性且属性值包含"spicy"的元素，
+即使元素的属性中还包含其他属性值，都会被应用红色的文本颜色 */
+[data-vegetable~="spicy"] {
+    color: red;
+}
+
+a {
+    color: blue;
+    font-weight: bold;
+}
+
+/* 我们想让被访问过的链接和未被访问
+的链接看起来一样 */
+
+a:visited {
+    color: blue;
+}
+
+/* 当光标悬停于链接，键盘激活或锁定
+链接时，我们让链接呈现高亮 */
+
+a:hover,
+a:active,
+a:focus {
+    color: darkred;
+    text-decoration: none;
+}
+table {
+    font: 1em sans-serif;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 所有在table里的td以及th，这里的逗号不是一个组合器，
+    它只是允许你把几个选择器对应到相同的CSS规则上.*/
+table td, table th {
+    border : 1px solid black;
+    padding: 0.5em 0.5em 0.4em;
+}
+
+/* 所有table里的thead里的所有th */
+table thead th {
+    color: white;
+    background: black;
+}
+
+/* 所有table里的tbody里的所有td（第一个除外），每个td都是由它上边的td选择 */
+table tbody td + td {
+    text-align: center;
+}
+
+/*table里所有的tbody里的td当中的最后一个 */
+table tbody td:last-child {
+    text-align: right
+}
+
+/* 所有table里的tfoot里的th */
+table tfoot th {
+    text-align: right;
+    border-top-width: 5px;
+    border-left: none;
+    border-bottom: none;
+}
+
+/* 在table当中，所有的th之后的td */
+table th + td {
+    text-align: right;
+    border-top-width: 5px;
+    color: white;
+    background: black;
+}
+
+/* 定位在“with-currency”类中拥有属性lang并且这个属性值为en-US的元素中的，最后td(:last-child)节点的前面（::before）*/
+.with-currency[lang="en-US"] td:last-child::before {
+    content: '$';
+}
+
+/* 定位在“with-currency”类中拥有属性lang并且这个属性值为fr的元素中的，最后td(:last-child)节点的后面（::after） */
+.with-currency[lang="fr"] td:last-child::after {
+    content: ' €';
+}
