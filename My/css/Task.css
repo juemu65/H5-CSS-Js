@@ -12,15 +12,16 @@ body {
 
 section {
     float: left;
-    width: 70%;
+    width: 60%;
 position: center;
-
+margin-left: 5%;
 }
 
 aside {
     float: left;
     width: 30%;
 position: center;
+    margin-right: 5%;
 }
 
 nav {
