@@ -12,16 +12,20 @@ body {
 
 section {
     float: left;
-    width: 60%;
+    width: 70%;
 position: center;
 margin-left: 5%;
 }
 
 aside {
     float: left;
-    width: 30%;
+    width: 20%;
 position: center;
     margin-right: 5%;
+}
+
+aside p{
+    text-align: right;
 }
 
 nav {
