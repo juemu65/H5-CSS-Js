@@ -12,17 +12,21 @@ body {
 
 section {
     float: left;
-    width: 50%;
+    width: 70%;
+position: center;
+
 }
 
 aside {
     float: left;
     width: 30%;
+position: center;
 }
 
 nav {
     float: left;
-    width: 20%;
+    width: 100%;
+    text-align: center;
 }
 
 footer {
@@ -33,6 +37,7 @@ header, section, aside, nav, footer {
     padding: 20px;
 }
 
+
 /* header and footer */
 
 header, footer {
@@ -40,6 +45,9 @@ header, footer {
     border-bottom: 5px solid #a66;
 }
 
+footer{
+    text-align: center;
+}
 
 
 
@@ -117,20 +125,26 @@ ol {
 
 /* nav menu */
 
+
 nav ul {
-    padding-left: 0;
-    margin-top: 0.8rem;
+    padding: 0;
+    width: 100%;
+    font-size: 0;
+    letter-spacing: -1px;
+    word-spacing: -1px;
 }
 
 nav li {
-    list-style-type: none;
-    margin-bottom: 2rem;
+
+    display: inline;
 }
 
 nav li a {
+    outline: none;
     text-decoration: none;
     display: inline-block;
-    width: 100%;
+    width: 16%;
+    margin-right: 0;
     line-height: 3;
     text-align: center;
     font-size: 2.5rem;
@@ -146,3 +160,4 @@ nav li a:active {
     color: white;
     background: black;
 }
+
