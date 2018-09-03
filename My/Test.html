@@ -4,8 +4,81 @@
     <meta charset="UTF-8">
     <title>test</title>
     <script src="js/test.js"></script>
+    <link rel="icon" href="img/mdn.ico">
+    <link rel="stylesheet" href="css/test.css" type="text/css">
 </head>
 <body>
-<input type="button" value="新窗口打开网站" onclick="openWindow()" />
+
+<div id="txt">
+<h2 id="con1">javascript</h2>
+<p> JavaScript是一种基于对象、事件驱动的简单脚本语言，嵌入在HTML文档中，由浏览器负责解释和执行，在网页上产生动态的显示效果并实现与用户交互功能。</p>
+
+<p id="con">做为一个Web开发师来说，如果你想提供漂亮的网页、令用户满意的上网体验，JavaScript是必不可少的工具。</p>
+<form>
+    <input type="button" onclick="hidetext()" value="隐藏内容" />
+    <input type="button" onclick="showtext()" value="显示内容" />
+</form>
+
+<p id="p1" > JavaScript使网页显示动态效果并实现与用户交互功能。</p>
+<input type="button" value="添加样式" onclick="add()"/>
+<p id="p2" class="one">JavaScript使网页显示动态效果并实现与用户交互功能。</p>
+<input type="button" value="更改外观" onclick="modify()"/>
+<br>
+<br>
+
+<br>
+<input name="button" type="button" onClick="rec()" value="点击我，弹出对话框" /><br>
+<input name="button" type="button" onClick="rec2()" value="点击我，弹出确认对话框" /><br>
+<input type="text" name="result" id="result" >
+<input name="button" type="button" onClick="rec3()" value="点击我，对成绩做评价!" /><br>
+<input type="button" value="新窗口打开网站" onclick="openWindow()" /><br>
+
+<!---->
+
+
+
+</div>
+<form>
+    <!--当点击相应按钮，执行相应操作，为按钮添加相应事件-->
+    <input type="button" value="改变颜色" onclick="changeColor()">
+    <input type="button" value="改变宽高" onclick="changeSize()">
+    <input type="button" value="隐藏内容" onclick="objHide()">
+    <input type="button" value="显示内容" onclick="objShow()">
+    <input type="button" value="取消设置" onclick="offSet()">
+</form>
+
+
+<script type="text/javascript">
+    var txt=document.getElementById("txt");
+
+    function changeColor(){
+        txt.style.color="red";
+        txt.style.backgroundColor="#ccc";
+    }
+
+    function changeSize(){
+        txt.style.width="300px";
+        txt.style.height="300px";
+    }
+
+    function objHide(){
+        txt.style.display="none";
+    }
+
+    function objShow(){
+        txt.style.display="block";
+    }
+
+    function offSet(){
+        var message=confirm("你确定要重置所有设置么？");
+        if(message==true){
+            txt.removeAttribute('style');
+        }
+    }
+
+</script>
+
+
 </body>
+
 </html>
