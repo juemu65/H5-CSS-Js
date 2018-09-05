@@ -1,3 +1,9 @@
+
+
+
+
+
+
 var displayedImage = document.querySelector('.displayed-img');
 var thumbBar = document.querySelector('.thumb-bar');
 
