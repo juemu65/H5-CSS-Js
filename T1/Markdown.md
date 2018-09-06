@@ -181,7 +181,7 @@
 
 [Google](http://www.google.com/)
 
-[T.jpeg](./My/img/T.jpeg)
+[T.jpeg](img/T.jpeg)
 
 [Google](http://www.google.com/ 'Google')
 
