@@ -1,3 +1,4 @@
+/*圆角*/
 .circle {
     height: 100px;
     width: 100px;
@@ -12,12 +13,14 @@
     border-radius: 50px 0 0 50px;
 }
 
+/*阴影*/
 .boxshadow {
     width: 100px;
     height: 100px;
     box-shadow: 4px 4px 6px #99ddaa;
 }
 
+/*渐变效果*/
 .linear p {
     width: 400px;
     height: 150px;
@@ -28,15 +31,7 @@
     background-image: linear-gradient(to top left, red, orange, yellow, green, blue, indigo, violet);
 }
 
-.ellipsis {
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-    width: 200px;
-    background: #99ddaa;
-
-}
-
+/*字体*/
 @font-face {
     font-family: "MOOC Font";
     src: url("http://www.imooc.com/Amaranth-BoldItalic.otf");
@@ -52,6 +47,7 @@
     text-shadow: 3px 3px #5E2612;
 }
 
+/*多图背景*/
 .multiple-back {
     width: 1000px;
     height: 700px;
@@ -142,8 +138,52 @@
 }
 
 
+/*分页*/
+.page-icon{
+    margin:20px 0 0 0;
+    font-size:0;/*修复行内元素之间空隙间隔*/
+    text-align:center;
+}
+.page-icon a,.page-disabled,page-next{
+    border:1px solid #ccc;
+    border-radius:3px;
+    padding:4px 10px 5px;
+    font-size:14PX;/*修复行内元素之间空隙间隔*/
+    margin-right:10px;
+}
+.page-icon a{
+    text-decoration:none;
+    color:#005aa0;
+}
+.page-current{
+    color:#ff6600;
+    padding:4px 10px 5px;
+    font-size:14PX;/*修复行内元素之间空隙间隔*/
+}
+.page-disabled{
+    color:#ccc;
 
+}
+.ellipsis{
+    font-size:14PX;/*修复行内元素之间空隙间隔*/
+    padding:4px 5px;
+}
+.page-next i,.page-disabled i{
+    cursor:pointer;
+    background:url(http://img.mukewang.com/547fdbc60001bab900880700.gif);
+    display:inline-block;
+    width:5px;
+    height:9px;
+}
+.page-disabled i{
+    background-position:-80px -608px;
+    margin-right:3px;
+}
 
+.page-next i{
+    background-position:-62px -608px;
+    margin-left:3px;
+}
 
 
 
