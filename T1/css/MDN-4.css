@@ -1,112 +1,61 @@
-@font-face {
-    font-family: 'handwriting';
-    src: url('../fonts/journal-webfont.woff2') format('woff2'),
-    url('../fonts/journal-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'typewriter';
-    src: url('../fonts/veteran_typewriter-webfont.woff2') format('woff2'),
-    url('../fonts/veteran_typewriter-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-body {
-    font  : 21px sans-serif;
-
-    padding : 2em;
-    margin  : 0;
-
-    background : #222;
-}
-
-form {
-    position: relative;
-
-    width  : 740px;
-    height : 498px;
-    margin : 0 auto;
-
-    background: #FFF url(../img/background.jpg);
-}
-h1 {
-    position : absolute;
-    left : 415px;
-    top  : 185px;
-    font : 1em "typewriter", sans-serif;
-}
-#from {
-    position: absolute;
-    left : 398px;
-    top  : 235px;
-}
-#reply {
-    position: absolute;
-    left : 390px;
-    top  : 285px;
-}
-#message {
-    position: absolute;
-    left : 20px;
-    top  : 70px;
-}
-label {
-    font : .8em "typewriter", sans-serif;
-}
-input, textarea {
-    font    : .9em/1.5em "handwriting", sans-serif;
-    border  : none;
-    padding : 0 10px;
-    margin  : 0;
-    width   : 240px;
+*{margin:0;padding:0;}
+.box{width: 1000px;margin:auto;height: auto}
+.section{width: 100%;height: 300px;}
+#backDom{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    opacity: 0;
+    visibility: visible;
     background: none;
+    -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+    -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+    transition: opacity 0.3s 0s, visibility 0s 0.3s;
+    z-index:9999;
 }
-input:focus, textarea:focus {
-    background   : rgba(0,0,0,.1);
-    border-radius: 5px;
-    outline      : none;
+#backDom.is-visible{
+    opacity: 1;
+    visibility:visible;
+    -webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
+    -moz-transition: opacity 0.3s 0s, visibility 0s 0s;
+    transition: opacity 0.3s 0s, visibility 0s 0s;
 }
-input {
-    height: 2.5em; /* for IE */
-    vertical-align: middle; /* This is optional but it makes legacy IEs look better */
-}
-textarea {
-    display : block;
-    padding : 10px;
-    margin  : 10px 0 0 -10px;
-    width   : 340px;
-    height  : 360px;
-    resize  : none;
-    overflow: auto;
-}
-button {
-    position     : absolute;
-    left         : 440px;
-    top          : 360px;
-    padding      : 5px;
-    font         : bold .6em sans-serif;
-    border       : 2px solid #333;
-    border-radius: 5px;
-    background   : none;
-    cursor       : pointer;
-    -webkit-transform: rotate(-1.5deg);
-    -moz-transform: rotate(-1.5deg);
-    -ms-transform: rotate(-1.5deg);
-    -o-transform: rotate(-1.5deg);
-    transform: rotate(-1.5deg);
-}
-button:after {
-    content: " >>>";
-}
-button:hover,
-button:focus {
-    outline   : none;
+#backTop{
+    width: 50px;
+    height: 50px;
+    float: left;
     background: #000;
-    color   : #FFF;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #ccc;
+    color: #fff;
+    text-shadow: 0 0 5px #fff;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    box-sizing: border-box;
+    -webkit-transform: translateY(50px);
+    -moz-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    -o-transform: translateY(50px);
+    transform: translateY(50px);
+    -webkit-backface-visibility: hidden;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
 }
-
-
-
+.is-visible #backTop{
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
