@@ -30,12 +30,7 @@ function result() {
         newStory = newStory.replace('李雷', name);
     }
 
-    if(document.getElementById("american").checked) {
-        const weight = Math.round(140 * 2.20462) + ' 磅';
-        const temperature =  Math.round(35 * 9 / 5 + 32) + ' 华氏度';
-        newStory = newStory.replace('35 摄氏度', temperature);
-        newStory = newStory.replace('140 公斤', weight);
-    }
+    
 
     story.textContent = newStory;
     story.style.visibility = 'visible';
