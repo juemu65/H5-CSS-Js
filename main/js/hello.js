@@ -7,7 +7,7 @@ function randomValueFromArray(array){
     return array[random];
 }
 
-let storyText = '今天气温 35 摄氏度，:insertx:出门散步。当走到:inserty:门前时，突然就:insertz:。人们都惊呆了，李雷全程目睹但并没有慌，因为:insertx:是一个 140 公斤的胖子，天气又辣么热。';
+let storyText = '面对凶猛的:insertX:，道士一边念咒，一边用朱砂飞速在符咒上写下：“:insertZ:！” 扔到:insertY:，符咒却半天都没有反应。道士拍拍脑袋，把符咒抓了回来，用朱砂在前头又勾了一个@。';
 let insertX = ['怪兽威利', '大老爹', '圣诞老人'];
 let insertY = ['肯德基', '迪士尼乐园', '白宫'];
 let insertZ = ['自燃了', '在人行道化成了一坨泥', '变成一只鼻涕虫爬走了'];
@@ -21,10 +21,9 @@ function result() {
     let yItem = randomValueFromArray(insertY);
     let zItem = randomValueFromArray(insertZ);
 
-    newStory = newStory.replace(':insertx:', xItem);
-    newStory = newStory.replace(':insertx:', xItem);
-    newStory = newStory.replace(':inserty:', yItem);
-    newStory = newStory.replace(':insertz:', zItem);
+    newStory = newStory.replace(':insertX:', xItem);
+    newStory = newStory.replace(':insertY:', yItem);
+    newStory = newStory.replace(':insertZ:', zItem);
 
     if(customName.value !== '') {
         const name = customName.value;
